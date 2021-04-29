@@ -1,0 +1,7 @@
+1、上傳到網站根目錄
+2、導入數據庫文件 ci_erp.sql
+3、修改數據庫鏈接文件 application\config\database.php
+（記得不要用記事本修改，否則可能會出現驗證碼顯示不了問題，建議用Notepad++）
+4、訪問您網址
+   帳號admin 密碼123qwe
+(記得用chrome瀏覽器，用IE會有不兼容情況)
