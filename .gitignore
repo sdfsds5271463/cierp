@@ -1,0 +1,5 @@
+#.gitignore
+#忽略管理檔案
+testallen.php
+*.log
+application/logs/
