@@ -5,5 +5,3 @@
 4、訪問您網址
    帳號admin 密碼123qwe
 (記得用chrome瀏覽器，用IE會有不兼容情況)
-
-test
