@@ -55,14 +55,14 @@
 			log_var = "<b style='color:#ffbb6b;'>" + act_val + "</b>\n系統只能處理 git 開頭的指令。\n\n" + log_var; //log
 			$("#log")[0].innerHTML = log_var;
 		}else{
-			$("#log")[0].innerHTML = "<b style='color:#ffbb6b;'>" + act_val + "</b>\n" + log_var;
+			$("#log")[0].innerHTML = "<b style='color:#ffbb6b;'>" + act_val + "</b>\n<img src='statics/js/common/plugins/fileupload/img/loading.gif' style='width: 30px;'>\n" + log_var;
 			post_lock = true;
 			$.ajax({
 				type: "post",
 				url: 'git_command.php',
 				data: "act_val=" + act_val,
 				success: function(data) { 
-					log_var = "<b style='color:#ffbb6b;'>" + act_val + "</b>\n"+data+"\n\n" + log_var; //log
+					log_var = "<b style='color:#ffbb6b;'>" + act_val + "</b>\n"+htmlspecialchars(data)+"\n\n" + log_var; //log
 					$("#log")[0].innerHTML = log_var;
 					post_lock = false;
 				},
@@ -73,6 +73,16 @@
 				}
 			});
 		}
+	}
+
+	function htmlspecialchars(ch) {
+		if (ch===null) return '';
+		ch = ch.replace(/&/g,"&amp;");
+		ch = ch.replace(/\"/g,"&quot;");
+		ch = ch.replace(/\'/g,"&#039;");
+		ch = ch.replace(/</g,"&lt;");
+		ch = ch.replace(/>/g,"&gt;");
+		return ch;
 	}
 
 </script>
