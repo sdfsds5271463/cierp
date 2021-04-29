@@ -3,3 +3,5 @@
 testallen.php
 *.log
 application/logs/
+
+#如果已經被追蹤的檔案，忽略後需要執行 git rm --cached testallen.php
