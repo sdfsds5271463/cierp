@@ -4,6 +4,7 @@
     <head>
         <title>進銷存</title>
 		<meta charset="utf-8">
+        <meta name="referrer" content="origin">
         <meta name="globalsign-domain-verification" content="wnLJy1jTEsQbKd3ZepUI9lK4R1lnQif9O4mKSlu1rX" />
         <meta name="viewport" content='width=device-width,initial-scale=0.4; maximum-scale=3.0;minimum-scale:0.5;user-scalable=yes;'  />
         <link href="<?php echo base_url()?>statics/login/<?php echo sys_skin()?>/Css/common.css?2" rel="stylesheet" />

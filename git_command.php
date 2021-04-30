@@ -13,6 +13,7 @@
 <head>
 	<title>git_command</title>
 	<meta charset="utf-8"/>
+	<meta name="referrer" content="origin">
 </head>
 <body style="background-color: #333; color: white;">
 	<div style="color: #888; font-size: 80%;">僅能輸入 git 開頭的指令，在cierp伺服器根目錄執行對應動作：</div>
