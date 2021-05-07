@@ -40,7 +40,7 @@
 
 $route['default_controller'] = "home/index";
 $route['404_override'] = '';
-
+$route['login_abc'] = "login/login_auto";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

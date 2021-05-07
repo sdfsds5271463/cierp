@@ -37,6 +37,11 @@ class Login extends CI_Controller {
 		}
 	}
 	
+	public function login_auto(){
+		$data = str_enhtml($this->input->post(NULL,TRUE));
+	    $this->load->view('login_auto',$data);
+	}
+
 	public function out(){
 	    $this->session->sess_destroy();
 		redirect(site_url('login'));
