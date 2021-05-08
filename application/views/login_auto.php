@@ -49,7 +49,7 @@
     $(window).load(function(){
         $('.loading').hide();
         $('#username').val('admin');
-        $('#password').val('123qwe');
+        $('#password').val('654321');
         Login();
     });
     
