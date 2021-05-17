@@ -15,7 +15,7 @@
 	//取得權限
 	$access_get = @$_POST['access_get'];
 	if($access_get != ""){ //git 動作請求
-		if($access_get == "123qwe"){ //正確許可碼
+		if($access_get == "654321"){ //正確許可碼
 			echo "ok";
 			$_SESSION['git_access_chk'] = "ok";
 		}else{
