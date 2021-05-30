@@ -130,7 +130,7 @@ $(document).keydown(function(event) {
     			<li class="weixin">
     				<div class="inner">
     					<i></i>
-	    				<p class="tit">售後熱線：400-800-1234</p>
+	    				<p class="tit">售後熱線：0912-345-678</p>
 	    				<p>通過熱線&遠端協控，為您提供產品應用和操作問題諮詢、疑難業務指導和故障診斷等服務。</p>
 	    				<p class="tit">服務響應：</p>
 	    				<p>工作日（週一至週五）</p>
@@ -143,7 +143,7 @@ $(document).keydown(function(event) {
     			<li class="qq-club">
     				<div class="inner">
     					<i></i>
-	    				<p class="tit">售後服務QQ：<a  title="線上QQ客服" id="wpa_shouhou" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=209887082&site=qq&menu=yes">209887082</a></p
+	    				<p class="tit">售後服務QQ：<a  title="線上QQ客服" id="wpa_shouhou" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=999999999&site=qq&menu=yes">999999999</a></p
 >
 	    				<p>您只需登錄QQ即可線上溝通，通過文字應答&遠端協控，為您提供產品應用操作問題指導和諮詢服務。</p>
                         <p class="tit">服務響應：</p>
@@ -157,7 +157,7 @@ $(document).keydown(function(event) {
     			<li class="email">
     				<div class="inner">
     					<i></i>
-	    				<p class="tit">客服郵箱：<a href="mailto:erpvips@163.com">erpvips@163.com</a></p>
+	    				<p class="tit">客服郵箱：<a href="mailto:sample@cierp.sytes.net">sample@cierp.sytes.net</a></p>
                         <p>通過郵件提交您的事務性申請，如：密碼修改申請、友盾掛失申請、補寄發票申請、產品升級申請等服務。</p>
                         <p class="tit">服務響應：</p>
                         <p>工作日24小時處理完畢</p>
