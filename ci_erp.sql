@@ -116,7 +116,7 @@ CREATE TABLE `ci_admin` (
 -- ----------------------------
 -- Records of ci_admin
 -- ----------------------------
-INSERT INTO `ci_admin` VALUES ('1', 'admin', 'C33367701511B4F6020EC61DED352059', '1', 'CI科技', '0912345678', null, '0', null, null, null, null, '');
+INSERT INTO `ci_admin` VALUES ('1', 'admin', 'c33367701511b4f6020ec61ded352059', '1', 'CI科技', '0912345678', null, '0', null, null, null, null, '');
 
 -- ----------------------------
 -- Table structure for `ci_assistingprop`

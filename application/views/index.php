@@ -55,7 +55,7 @@ var SYSTEM = {
 	fax: "<?php echo $system['fax']?>",	//公司傳真
 	postcode: "<?php echo $system['postcode']?>",	//公司郵編
 	startDate: "", //啟用日期
-	currency: "RMB",	//本位幣
+	currency: "NTD",	//本位幣
 	qtyPlaces: "<?php echo $system['qtyPlaces']?>",	//數量小數位
 	pricePlaces: "<?php echo $system['pricePlaces']?>",	//單價小數位
 	amountPlaces: "<?php echo $system['amountPlaces']?>", //金額小數位
